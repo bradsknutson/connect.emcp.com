@@ -1,0 +1,199 @@
+/*
+Theme Name: Masonic Child
+Theme URI: http://themegrill.com/themes/masonic/
+Author: ThemeGrill
+Author URI: http://themegrill.com
+Description: Masonic is responsive and retina ready WordPress theme suitable for blogs and has beautiful masonry layout. Theme has options like primary color, link color, custom CSS etc. which you can change from Theme Customizer. Also, supports Breadcrumb NavXT plugin. Get free support at http://themegrill.com/support-forum/ and check the demo at http://demo.themegrill.com/masonic/
+Template: masonic
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: responsive-layout, right-sidebar, custom-background, custom-header, custom-menu, custom-colors, featured-images, sticky-post, threaded-comments, translation-ready, post-formats
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+@import url("../guru/style.css");
+
+
+/*--------------------------------------------------------------
+    Child Theme Specific Styles (No Overrides)
+--------------------------------------------------------------*/
+.entry-content a {
+    color: #C10006;
+}
+.author-style-override {
+    color: #7C7179;   
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+    Parent Theme Overrides Start HEre
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Reset
+2.0 Typography
+3.0 Elements
+4.0 Forms
+5.0 Navigation
+      5.1 Links
+6.0 Accessibility
+7.0 Alignments
+8.0 Clearings
+9.0 Widgets
+10.0 Content
+      10.1 Header
+      10.2 Posts and pages
+      10.3 Comments
+      10.4 Asides
+      10.5 Filter and Pagination
+      10.6 Footer
+11.0 Infinite scroll
+12.0 Media
+      12.1 Captions
+      12.2 Galleries
+13.0 Responsive
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 Reset
+--------------------------------------------------------------*/
+body {
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+/*--------------------------------------------------------------
+2.0 Typography
+--------------------------------------------------------------*/
+p {
+    overflow: visible;
+}
+/*--------------------------------------------------------------
+3.0 Elements
+--------------------------------------------------------------*/
+.underline {
+    height: 3px;   
+}
+
+/*--------------------------------------------------------------
+4.0 Forms
+--------------------------------------------------------------*/
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    color: #FFF;   
+}
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+    background: #333;
+    color: #FFF !important;
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, textarea:focus {
+    outline: none;
+}
+/*--------------------------------------------------------------
+5.0 Navigation
+--------------------------------------------------------------*/
+.navigation {
+    background: none repeat scroll 0 0 rgb(198,198,198);
+}
+#masonic .current_page_item a, #masonic .current-menu-item a {
+    background: transparent;   
+}
+
+
+/*--------------------------------------------------------------
+9.2 Search
+--------------------------------------------------------------*/
+.masonic-search-toggle .masonic-search {
+    border-bottom: 1px solid #CCC;   
+}
+.sb-icon-search {
+    background: rgb(198,198,198);   
+}
+.masonic-search-toggle {
+    background: none repeat scroll 0 0 rgb(198,198,198);
+    border-top: 1px solid #CCC;
+}
+
+/*--------------------------------------------------------------
+10.0 Content
+--------------------------------------------------------------*/
+
+.byline, .updated:not(.published) {
+    display: block;   
+}
+
+/*--------------------------------------------------------------
+10.1 Header
+--------------------------------------------------------------*/
+.site-header {
+    background: none repeat scroll 0 0 #FFF;   
+}
+.logo-img-holder img {
+    width: auto;
+    height: auto;
+}
+.header-image {
+    height: 200px;
+    background-color: rgb(193,0,6);
+}
+.header-image img {
+    margin: auto;
+    display: block;
+}
+
+
+/*--------------------------------------------------------------
+10.2 Posts and pages
+--------------------------------------------------------------*/
+.blog-header {
+    background-color: #FFF;
+    border-bottom: 3px solid #CCC;
+}
+.blog-site-title h2 {
+    color: #1D1D1D;   
+}
+.catagory-type a {
+    background: transparent;
+    padding: 0;
+}
+
+
+/*--------------------------------------------------------------
+10.6 Footer
+--------------------------------------------------------------*/
+.footer-background {
+    background-color: #f1f1f1;
+}
+.copyright .copyright-header {
+    color: #CCC;   
+}
+.copyright .copyright-year {
+    margin: 0;   
+}
+
+
+/*--------------------------------------------------------------
+13.0 Responsive
+--------------------------------------------------------------*/
+@media screen and (max-width: 1280px) {
+
+}
+@media screen and (max-width: 800px) {
+    
+}
+@media screen and (max-width: 600px) {
+    
+}
+@media screen and (max-width: 480px) {
+   .site-header-text {
+       bottom: 0px;
+   }
+}
